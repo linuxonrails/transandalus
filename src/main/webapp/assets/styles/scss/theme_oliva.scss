@@ -1,1 +1,13 @@
 // theme by default
+
+@import 'navbar-at-top';
+
+@import 'section-first';
+
+body {
+  padding-top: 0;
+}
+
+.main-province {
+  text-decoration: underline;
+}

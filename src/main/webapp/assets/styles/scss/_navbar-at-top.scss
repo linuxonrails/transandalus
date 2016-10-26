@@ -1,0 +1,40 @@
+$navbar-collapse-color-border-right: #ecfe00;
+
+$navbar-link-color: #ffffff;
+$navbar-link-color-when-hover: #dddddd;
+
+.navbar-at-top {
+  background-color: inherit;
+  border-width: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin: 1.8em 0;
+
+  .navbar-nav {
+    > li.active > a {
+      background-color: inherit;
+      color: $navbar-link-color;
+    }
+
+    > li > a {
+      color: $navbar-link-color;
+      padding: 8px 15px;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $navbar-link-color-when-hover;
+      }
+    }
+  }
+
+  .navbar-right {
+    margin-right: 0;
+  }
+}
+
+.navbar-userlinks {
+  .vertical-separator {
+    border-left: 3px solid $navbar-collapse-color-border-right;
+    // margin: 5px 0;
+  }
+}

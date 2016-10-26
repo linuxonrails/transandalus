@@ -1,0 +1,28 @@
+$section-first-color: #ffffff;
+
+section {
+  &.first {
+    background-image: url('/assets/images/home_main_bg.jpg');
+    background-position: center center;
+    background-size: 100%;
+    color: $section-first-color;
+    min-height: 500px;
+    padding: 2em 0;
+    text-transform: uppercase;
+
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      margin: 3em 0 .5em;
+    }
+
+    .lead {
+      margin-bottom: 3em;
+    }
+
+    a {
+      color: $section-first-color;
+      text-transform: uppercase;
+    }
+  }
+}
